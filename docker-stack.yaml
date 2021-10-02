@@ -2,11 +2,11 @@ version: "3.9"
 
 services:
   core:
-    image: softvisio/core
+    image: zerocluster/core
 
     build:
       context: .
 
 x-build:
   default_tag: latest
-  # auto_tags: [main, latest, next]
+  auto_tags: [main, latest, next]
