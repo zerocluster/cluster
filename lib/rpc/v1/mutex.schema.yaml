@@ -2,14 +2,29 @@ title: Shared mutex
 permissions: ["*"]
 
 methods:
-  get:
-    title: Get continent by ISO code or name
+  try-down:
+    title: Try down mutex
     params:
       - name: id
-        description: Continent ISO alpha-2 code or name.
+        description: Mutex ID.
         required: true
         schema:
           type: string
 
-  get-all:
-    title: Get all continents
+  down:
+    title: Down mutex
+    params:
+      - name: id
+        description: Mutex ID.
+        required: true
+        schema:
+          type: string
+
+  up:
+    title: Up mutex
+    params:
+      - name: id
+        description: Mutex ID.
+        required: true
+        schema:
+          type: string
