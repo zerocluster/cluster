@@ -1,0 +1,15 @@
+title: Shared mutex
+permissions: ["*"]
+
+methods:
+  get:
+    title: Get continent by ISO code or name
+    params:
+      - name: id
+        description: Continent ISO alpha-2 code or name.
+        required: true
+        schema:
+          type: string
+
+  get-all:
+    title: Get all continents
