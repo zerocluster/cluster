@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import Cli from "#lib/cli";
-import resources from "#lib/hostname/resources";
+import Cli from "#core/cli";
+import resources from "#core/hostname/resources";
 
 const CLI = {
     "title": "Update datasets",
