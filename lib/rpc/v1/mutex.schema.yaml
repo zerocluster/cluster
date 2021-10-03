@@ -4,6 +4,7 @@ permissions: ["*"]
 methods:
   try-down:
     title: Try down mutex
+    persistentConnectionRequired: true
     params:
       - name: id
         description: Mutex ID.
@@ -12,6 +13,7 @@ methods:
 
   down:
     title: Down mutex
+    persistentConnectionRequired: true
     params:
       - name: id
         description: Mutex ID.
@@ -20,6 +22,7 @@ methods:
 
   up:
     title: Up mutex
+    persistentConnectionRequired: true
     params:
       - name: id
         description: Mutex ID.
