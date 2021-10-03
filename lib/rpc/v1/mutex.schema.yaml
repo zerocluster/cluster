@@ -2,12 +2,21 @@ title: Shared mutex
 permissions: ["*"]
 
 methods:
+  is-locked:
+    title: Check if mutex is locked
+    params:
+      - name: id
+        description: Mutex id.
+        required: true
+        schema:
+          type: string
+
   try-down:
     title: Try down mutex
     persistentConnectionRequired: true
     params:
       - name: id
-        description: Mutex ID.
+        description: Mutex id.
         schema:
           type: string
 
@@ -16,7 +25,7 @@ methods:
     persistentConnectionRequired: true
     params:
       - name: id
-        description: Mutex ID.
+        description: Mutex id.
         schema:
           type: string
 
@@ -25,6 +34,7 @@ methods:
     persistentConnectionRequired: true
     params:
       - name: id
-        description: Mutex ID.
+        description: Mutex id.
+        required: true
         schema:
           type: string
