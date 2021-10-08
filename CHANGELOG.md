@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.2.0 (2021-10-08)
+
+Features:
+
+-   feat: shared events
+
 ### 1.1.1 (2021-10-07)
 
 Fixes:
