@@ -1,0 +1,41 @@
+title: Events pub/sub
+permissions: ["*"]
+
+methods:
+  subscribe:
+    title: Subscribe to the events
+    persistentConnectionRequired: true
+    params:
+      - name: events
+        description: Events names to subscribe.
+        required: true
+        schema:
+          type: array
+          item: { type: string }
+          minItems: 1
+
+  unsubscribe:
+    title: Unsubscribe from the events
+    persistentConnectionRequired: true
+    params:
+      - name: events
+        description: Events names to unsubscribe.
+        required: true
+        schema:
+          type: array
+          item: { type: string }
+          minItems: 1
+
+  publish:
+    title: Publish event
+    persistentConnectionRequired: true
+    params:
+      - name: event
+        description: Event name.
+        required: true
+        schema:
+          type: string
+      - name: body
+        description: Event body as <Buffer\>.
+        schema:
+          instanceof: Buffer
