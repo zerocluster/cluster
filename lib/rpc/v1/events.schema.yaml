@@ -29,12 +29,12 @@ methods:
   publish:
     title: Publish event
     params:
-      - name: event
+      - name: name
         description: Event name.
         required: true
         schema:
           type: string
-      - name: body
-        description: Event body as <Buffer\>.
+      - name: args
+        description: Array of the event arguments, encoded with `MessagePack`.
         schema:
           instanceof: Buffer
