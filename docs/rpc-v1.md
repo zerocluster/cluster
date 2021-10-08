@@ -27,6 +27,90 @@ const api = Api.new( "http://domain:8080/" )
 
 <!-- tabs:end -->
 
+## Events pub/sub
+
+### Subscribe to the events
+
+<!-- tabs:start -->
+
+#### **JavaScript**
+
+<!-- prettier-ignore -->
+```javascript
+const res = await api.call( "/v1/events/subscribe", events );
+```
+
+#### **Shell**
+
+<!-- prettier-ignore -->
+```shell
+curl \
+    -X POST \
+    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
+    -H "Content-Type: application/json" \
+    -d '[events]' \
+    "http://domain:8080/v1/events/subscribe"
+```
+
+<!-- tabs:end -->
+
+-   `events` <Array\> Events names to subscribe.
+
+### Unsubscribe from the events
+
+<!-- tabs:start -->
+
+#### **JavaScript**
+
+<!-- prettier-ignore -->
+```javascript
+const res = await api.call( "/v1/events/unsubscribe", events );
+```
+
+#### **Shell**
+
+<!-- prettier-ignore -->
+```shell
+curl \
+    -X POST \
+    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
+    -H "Content-Type: application/json" \
+    -d '[events]' \
+    "http://domain:8080/v1/events/unsubscribe"
+```
+
+<!-- tabs:end -->
+
+-   `events` <Array\> Events names to unsubscribe.
+
+### Publish event
+
+<!-- tabs:start -->
+
+#### **JavaScript**
+
+<!-- prettier-ignore -->
+```javascript
+const res = await api.call( "/v1/events/publish", name, args? );
+```
+
+#### **Shell**
+
+<!-- prettier-ignore -->
+```shell
+curl \
+    -X POST \
+    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
+    -H "Content-Type: application/json" \
+    -d '[name, args?]' \
+    "http://domain:8080/v1/events/publish"
+```
+
+<!-- tabs:end -->
+
+-   `name` <string\> Event name.
+-   `args?` <Buffer\> Array of the event arguments, encoded with `MessagePack`.
+
 ## Shared mutex
 
 ### Check if mutex is locked
