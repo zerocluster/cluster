@@ -28,7 +28,6 @@ methods:
 
   publish:
     title: Publish event
-    persistentConnectionRequired: true
     params:
       - name: event
         description: Event name.
