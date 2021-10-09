@@ -6,7 +6,7 @@ version: "3.9"
 # docker stack deploy --with-registry-auth -c docker-stack.yaml core
 
 services:
-  datasets:
+  core:
     image: zerocluster/core
     init: true
     stop_grace_period: 5m
