@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.2.1 (2021-10-11)
+
+Fixes:
+
+-   fix: docker service name
+
 ### 1.2.0 (2021-10-08)
 
 Features:
