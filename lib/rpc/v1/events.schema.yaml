@@ -5,6 +5,7 @@ methods:
   subscribe:
     title: Subscribe to the events
     persistentConnectionRequired: true
+    binaryProtocolRequired: true
     params:
       - name: events
         description: Events names to subscribe.
@@ -17,6 +18,7 @@ methods:
   unsubscribe:
     title: Unsubscribe from the events
     persistentConnectionRequired: true
+    binaryProtocolRequired: true
     params:
       - name: events
         description: Events names to unsubscribe.
@@ -28,6 +30,7 @@ methods:
 
   publish:
     title: Publish event
+    binaryProtocolRequired: true
     params:
       - name: name
         description: Event name.
