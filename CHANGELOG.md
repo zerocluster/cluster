@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.2.2 (2021-10-12)
+
+Fixes:
+
+-   fix: api events requires binry protocol
+
 ### 1.2.1 (2021-10-11)
 
 Fixes:
