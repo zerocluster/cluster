@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.3.0 (2021-11-08)
+
+Features:
+
+-   feat: dev script
+
+Fixes:
+
+-   fix: api schema files renamed
+
 ### 1.2.2 (2021-10-12)
 
 Fixes:
