@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.0 (2021-11-18)
+
+Features:
+
+-   feat: app init refactored
+
 ### 1.3.1 (2021-11-14)
 
 Fixes:
