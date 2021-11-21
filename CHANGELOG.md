@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.4.1 (2021-11-21)
+
+Fixes:
+
+-   fix: #app import removed
+-   fix: scripts
+
 ### 1.4.0 (2021-11-18)
 
 Features:
