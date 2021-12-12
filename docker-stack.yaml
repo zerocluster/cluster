@@ -16,6 +16,13 @@ services:
       placement:
         max_replicas_per_node: 1
 
+    healthcheck:
+      test: curl -f http://127.0.0.1/api/healthcheck || exit 1
+      start_period: 10s
+      interval: 1m
+      timeout: 10s
+      retries: 3
+
     networks: [private]
 
     volumes:
