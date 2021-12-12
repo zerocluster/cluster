@@ -11,4 +11,4 @@ aliases:
 
 rpc:
   location: lib/rpc
-  url: ws://domain:8080/
+  url: ws://core/api/
