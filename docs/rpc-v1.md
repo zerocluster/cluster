@@ -2,8 +2,8 @@
 
 ### API connect URLs
 
--   API HTTP URL: `http://domain:8080/`
--   API WebSockets URL: `ws://domain:8080/`
+-   API HTTP URL: `http://core/api/`
+-   API WebSockets URL: `ws://core/api/`
 
 <!-- tabs:start -->
 
@@ -13,7 +13,7 @@
 ```javascript
 import Api from "@softvisio/core/api";
 
-const api = Api.new( "ws://domain:8080/" )
+const api = Api.new( "ws://core/api/" )
 ```
 
 #### **HTTP**
@@ -22,7 +22,7 @@ const api = Api.new( "ws://domain:8080/" )
 ```javascript
 import Api from "@softvisio/core/api";
 
-const api = Api.new( "http://domain:8080/" )
+const api = Api.new( "http://core/api/" )
 ```
 
 <!-- tabs:end -->
@@ -49,7 +49,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[events]' \
-    "http://domain:8080/v1/events/subscribe"
+    "http://core/api/v1/events/subscribe"
 ```
 
 <!-- tabs:end -->
@@ -76,7 +76,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[events]' \
-    "http://domain:8080/v1/events/unsubscribe"
+    "http://core/api/v1/events/unsubscribe"
 ```
 
 <!-- tabs:end -->
@@ -103,7 +103,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[name, args?]' \
-    "http://domain:8080/v1/events/publish"
+    "http://core/api/v1/events/publish"
 ```
 
 <!-- tabs:end -->
@@ -133,7 +133,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[mutex_id]' \
-    "http://domain:8080/v1/mutex/is-locked"
+    "http://core/api/v1/mutex/is-locked"
 ```
 
 <!-- tabs:end -->
@@ -160,7 +160,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[mutex_id?]' \
-    "http://domain:8080/v1/mutex/try-down"
+    "http://core/api/v1/mutex/try-down"
 ```
 
 <!-- tabs:end -->
@@ -187,7 +187,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[mutex_id?]' \
-    "http://domain:8080/v1/mutex/down"
+    "http://core/api/v1/mutex/down"
 ```
 
 <!-- tabs:end -->
@@ -214,7 +214,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[mutex_id]' \
-    "http://domain:8080/v1/mutex/up"
+    "http://core/api/v1/mutex/up"
 ```
 
 <!-- tabs:end -->
