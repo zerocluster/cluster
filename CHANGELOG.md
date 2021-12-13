@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.4.5 (2021-12-13)
+
+Fixes:
+
+-   fix: endpoint path
+
 ### 1.4.4 (2021-12-12)
 
 Fixes:
