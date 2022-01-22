@@ -1,0 +1,17 @@
+title: Cluster
+permissions: ["*"]
+
+methods:
+  publish:
+    title: Publish event
+    binaryProtocolRequired: true
+    params:
+      - name: name
+        description: Event name.
+        required: true
+        schema:
+          type: string
+      - name: args
+        description: Array of the event arguments, encoded with `MessagePack`.
+        schema:
+          instanceof: Buffer
