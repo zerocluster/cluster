@@ -27,61 +27,7 @@ const api = Api.new( "http://core/api/" )
 
 <!-- tabs:end -->
 
-## Events pub/sub
-
-### Subscribe to the events
-
-<!-- tabs:start -->
-
-#### **JavaScript**
-
-<!-- prettier-ignore -->
-```javascript
-const res = await api.call( "/v1/events/subscribe", events );
-```
-
-#### **Shell**
-
-<!-- prettier-ignore -->
-```shell
-curl \
-    -X POST \
-    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[events]' \
-    "http://core/api/v1/events/subscribe"
-```
-
-<!-- tabs:end -->
-
--   `events` <Array\> Events names to subscribe.
-
-### Unsubscribe from the events
-
-<!-- tabs:start -->
-
-#### **JavaScript**
-
-<!-- prettier-ignore -->
-```javascript
-const res = await api.call( "/v1/events/unsubscribe", events );
-```
-
-#### **Shell**
-
-<!-- prettier-ignore -->
-```shell
-curl \
-    -X POST \
-    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[events]' \
-    "http://core/api/v1/events/unsubscribe"
-```
-
-<!-- tabs:end -->
-
--   `events` <Array\> Events names to unsubscribe.
+## Cluster
 
 ### Publish event
 
@@ -91,7 +37,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/events/publish", name, args? );
+const res = await api.call( "/v1/cluster/publish", name, args? );
 ```
 
 #### **Shell**
@@ -103,7 +49,7 @@ curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
     -H "Content-Type: application/json" \
     -d '[name, args?]' \
-    "http://core/api/v1/events/publish"
+    "http://core/api/v1/cluster/publish"
 ```
 
 <!-- tabs:end -->

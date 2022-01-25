@@ -1,5 +1,16 @@
 # Changelog
 
+### 1.5.0 (2022-01-25)
+
+Features:
+
+-   feat: api schema emits
+-   feat: cluster refactored
+
+Fixes:
+
+-   fix: client renamed to connection
+
 ### 1.4.5 (2021-12-13)
 
 Fixes:
