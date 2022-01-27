@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.2 (2022-01-27)
+
+Fixes:
+
+-   fix: events
+
 ### 1.5.1 (2022-01-26)
 
 Fixes:
