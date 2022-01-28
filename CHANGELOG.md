@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.5.3 (2022-01-28)
+
+Fixes:
+
+-   fix: docs config
+-   fix: events
+
 ### 1.5.2 (2022-01-27)
 
 Fixes:
