@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.5.4 (2022-02-06)
+
+Fixes:
+
+-   fix: api client use json by default
+-   fix: binaryProtocol renamed to protocol
+
 ### 1.5.3 (2022-01-28)
 
 Fixes:
