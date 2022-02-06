@@ -4,7 +4,6 @@ permissions: ["*"]
 methods:
   publish:
     title: Publish event
-    binaryProtocolRequired: true
     params:
       - name: name
         description: Event name.
