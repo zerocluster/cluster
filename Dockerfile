@@ -3,7 +3,7 @@ FROM zerocluster/node
 # ENTRYPOINT [ "/bin/bash", "-l", "-c", "npm run environment", "bash" ]
 # ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval NODE_OPTIONS=\${NODE_OPTIONS_$NODE_ENV} && npm run environment -- \"$@\"", "bash" ]
 # ENTRYPOINT [ "/bin/bash", "-l", "-c", "eval NODE_OPTIONS=\"\${NODE_OPTIONS_$NODE_ENV}\" && npm run environment -- \"$@\"", "bash" ]
-ENTRYPOINT [ "/bin/bash", "-l", "-c", "echo $NODE_OPTIONS_production && eval NODE_OPTIONS=\\${NODE_OPTIONS_$NODE_ENV} && npm run environment -- \"$@\"", "bash" ]
+ENTRYPOINT [ "/bin/bash", "-l", "-c", "echo $NODE_OPTIONS_production && echo $NODE_ENV && eval export NODE_OPTIONS=\\${NODE_OPTIONS_$NODE_ENV} && npm run environment -- \"$@\"", "bash" ]
 
 RUN \
     # install deps

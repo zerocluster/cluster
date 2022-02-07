@@ -2,7 +2,7 @@
 
 import App from "#lib/app";
 
-console.log( process.env );
+// console.log( process.env );
 console.log( "NODE_ENV", process.env.NODE_ENV );
 console.log( "NODE_OPTIONS", process.env.NODE_OPTIONS );
 process.exit();
