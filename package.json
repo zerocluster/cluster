@@ -25,7 +25,7 @@
     },
     "scripts": {
         "dev": "node bin/main.js --mode=development",
-        "environment": "node bin/main.js"
+        "env": "node bin/main.js"
     },
     "dependencies": {
         "@softvisio/core": "^6.0.0"
