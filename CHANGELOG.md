@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.5 (2022-02-07)
+
+Fixes:
+
+-   fix: api: msgpack removed
+
 ### 1.5.4 (2022-02-06)
 
 Fixes:
