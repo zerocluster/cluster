@@ -23,6 +23,9 @@ services:
       timeout: 10s
       retries: 3
 
+    environment:
+      NODE_ENV: development
+
     networks: [private]
 
     volumes:
