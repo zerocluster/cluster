@@ -4,7 +4,6 @@ permissions: ["*"]
 methods:
   publish:
     title: Publish event
-    protocol: text
     params:
       - name: name
         description: Event name.
