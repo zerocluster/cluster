@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.5.7 (2022-02-08)
+
+Fixes:
+
+-   fix: app mode cli
+-   fix: docker environment
+
 ### 1.5.6 (2022-02-07)
 
 Fixes:
