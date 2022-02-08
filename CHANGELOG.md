@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.8 (2022-02-08)
+
+Fixes:
+
+-   fix: app mode cli
+
 ### 1.5.7 (2022-02-08)
 
 Fixes:
