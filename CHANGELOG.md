@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.5.12 (2022-02-21)
+
+Fixes:
+
+-   fix: metadata update
+-   fix: solid font awesome
+-   fix: uuid exports
+
 ### 1.5.11 (2022-02-12)
 
 Fixes:
