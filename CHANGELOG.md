@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.14 (2022-02-21)
+
+Fixes:
+
+-   fix: update script removed
+
 ### 1.5.13 (2022-02-21)
 
 Fixes:
