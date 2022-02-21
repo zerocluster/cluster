@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.13 (2022-02-21)
+
+Fixes:
+
+-   fix: ghithub action renamed
+
 ### 1.5.12 (2022-02-21)
 
 Fixes:
