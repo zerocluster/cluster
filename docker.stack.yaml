@@ -26,16 +26,11 @@ services:
     # environment:
     #   NODE_ENV: development
 
-    networks: [private]
-
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
 
     build:
       context: .
-
-networks:
-  private: { external: true }
 
 x-build:
   default_tag: latest
