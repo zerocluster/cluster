@@ -26,11 +26,16 @@ services:
     # environment:
     #   NODE_ENV: development
 
+    networks: [swarm]
+
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
 
     build:
       context: .
+
+networks:
+  swarm: { external: true }
 
 x-build:
   default_tag: latest
