@@ -1,6 +1,6 @@
 FROM zerocluster/node
 
-LABEL org.opencontainers.image.source https://github.com/zetocluster/core
+LABEL org.opencontainers.image.source https://github.com/zerocluster/core
 
 RUN \
     # install deps
