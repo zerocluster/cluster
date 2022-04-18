@@ -1,5 +1,7 @@
 FROM zerocluster/node
 
+LABEL org.opencontainers.image.source https://github.com/zetocluster/core
+
 RUN \
     # install deps
     npm i --omit=dev \
