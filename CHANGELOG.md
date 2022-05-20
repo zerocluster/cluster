@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.24 (2022-05-20)
+
+Fixes:
+
+-   fix: mutex api
+
 ### 1.5.23 (2022-04-22)
 
 Fixes:
