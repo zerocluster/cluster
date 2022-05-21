@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.5.25 (2022-05-21)
+
+Fixes:
+
+-   fix: semaphore done -> finish
+
 ### 1.5.24 (2022-05-20)
 
 Fixes:
