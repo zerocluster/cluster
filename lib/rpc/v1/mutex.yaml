@@ -1,5 +1,5 @@
 title: Shared mutex
-permissions: ["*"]
+roles: ["*"]
 
 methods:
   is-locked:
