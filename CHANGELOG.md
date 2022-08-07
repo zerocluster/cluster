@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.0 (2022-08-07)
+
+Features:
+
+-   feat: permissions renamed to roles
+
 ### 1.5.25 (2022-05-21)
 
 Fixes:
