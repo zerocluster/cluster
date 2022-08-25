@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.1 (2022-08-25)
+
+Fixes:
+
+-   fix: ctx properties
+
 ### 1.6.0 (2022-08-07)
 
 Features:
