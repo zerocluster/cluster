@@ -1,5 +1,16 @@
 # Changelog
 
+### 1.7.0 (2022-12-22)
+
+Features:
+
+-   feat: api refactor
+
+Fixes:
+
+-   fix: app refactored
+-   fix: deps
+
 ### 1.6.2 (2022-09-14)
 
 Fixes:
