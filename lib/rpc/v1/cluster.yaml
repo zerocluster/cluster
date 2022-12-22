@@ -1,5 +1,4 @@
 title: Cluster
-roles: ["*"]
 
 methods:
   publish:
