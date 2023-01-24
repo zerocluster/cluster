@@ -1,8 +1,8 @@
 logo: false
 
 externalTypes:
-  - https://softvisio.github.io/core/
-  - https://softvisio.github.io/result/
+  - https://softvisio-node.github.io/core/
+  - https://softvisio-node.github.io/result/
 
 aliases:
   /api: https://raw.githubusercontent.com/softvisio/core/main/docs/api.md
