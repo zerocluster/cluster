@@ -45,17 +45,37 @@ const res = await api.call( "/v1/cluster/publish", name, args? );
 <!-- prettier-ignore -->
 ```shell
 curl \
-    -X POST \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[name, args?]' \
     "http://core/api/v1/cluster/publish"
 ```
 
 <!-- tabs:end -->
 
 -   `name` <string\> Event name.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string"
+    }
+    ```
+
+    </details>
+
 -   `args?` <Buffer\> Array of the event arguments, encoded with `MessagePack`.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "instanceof": "Buffer"
+    }
+    ```
+
+    </details>
 
 ## Shared mutex
 
@@ -75,16 +95,24 @@ const res = await api.call( "/v1/mutex/is-locked", mutex_id );
 <!-- prettier-ignore -->
 ```shell
 curl \
-    -X POST \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[mutex_id]' \
     "http://core/api/v1/mutex/is-locked"
 ```
 
 <!-- tabs:end -->
 
 -   `mutex_id` <string\> Mutex id.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string"
+    }
+    ```
+
+    </details>
 
 ### Try down mutex
 
@@ -102,16 +130,24 @@ const res = await api.call( "/v1/mutex/try-down", mutex_id? );
 <!-- prettier-ignore -->
 ```shell
 curl \
-    -X POST \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[mutex_id?]' \
     "http://core/api/v1/mutex/try-down"
 ```
 
 <!-- tabs:end -->
 
 -   `mutex_id?` <string\> Mutex id.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string"
+    }
+    ```
+
+    </details>
 
 ### Down mutex
 
@@ -129,16 +165,24 @@ const res = await api.call( "/v1/mutex/down", mutex_id? );
 <!-- prettier-ignore -->
 ```shell
 curl \
-    -X POST \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[mutex_id?]' \
     "http://core/api/v1/mutex/down"
 ```
 
 <!-- tabs:end -->
 
 -   `mutex_id?` <string\> Mutex id.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string"
+    }
+    ```
+
+    </details>
 
 ### Up mutex
 
@@ -156,13 +200,21 @@ const res = await api.call( "/v1/mutex/up", mutex_id );
 <!-- prettier-ignore -->
 ```shell
 curl \
-    -X POST \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    -H "Content-Type: application/json" \
-    -d '[mutex_id]' \
     "http://core/api/v1/mutex/up"
 ```
 
 <!-- tabs:end -->
 
 -   `mutex_id` <string\> Mutex id.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string"
+    }
+    ```
+
+    </details>
