@@ -7,6 +7,6 @@ externalTypes:
 aliases:
   /api: https://raw.githubusercontent.com/softvisio-node/core/main/docs/api.md
 
-rpc:
-  location: lib/rpc
-  url: ws://core/api
+app:
+  rpc:
+    url: ws://core/api
