@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.7.3 (2023-02-14)
+
+Fixes:
+
+-   fix: app docs generator
+-   fix: docs config
+
 ### 1.7.2 (2023-01-24)
 
 Fixes:
