@@ -27,56 +27,6 @@ const api = Api.new( "http://core/api/" )
 
 <!-- tabs:end -->
 
-## Cluster
-
-### Publish event
-
-<!-- tabs:start -->
-
-#### **JavaScript**
-
-<!-- prettier-ignore -->
-```javascript
-const res = await api.call( "/v1/cluster/publish", name, args? );
-```
-
-#### **Shell**
-
-<!-- prettier-ignore -->
-```shell
-curl \
-    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    "http://core/api/v1/cluster/publish"
-```
-
-<!-- tabs:end -->
-
--   `name` <string\> Event name.
-
-    <details>
-        <summary>JSON schema</summary>
-
-    ```json
-    {
-        "type": "string"
-    }
-    ```
-
-    </details>
-
--   `args?` <Buffer\> Array of the event arguments, encoded with `MessagePack`.
-
-    <details>
-        <summary>JSON schema</summary>
-
-    ```json
-    {
-        "instanceof": "Buffer"
-    }
-    ```
-
-    </details>
-
 ## Shared mutex
 
 ### Check if mutex is locked
@@ -214,6 +164,56 @@ curl \
     ```json
     {
         "type": "string"
+    }
+    ```
+
+    </details>
+
+## Cluster
+
+### Publish event
+
+<!-- tabs:start -->
+
+#### **JavaScript**
+
+<!-- prettier-ignore -->
+```javascript
+const res = await api.call( "/v1/cluster/publish", name, args? );
+```
+
+#### **Shell**
+
+<!-- prettier-ignore -->
+```shell
+curl \
+    -H "Authorization: Bearer <YOUR-API-TOKEN>" \
+    "http://core/api/v1/cluster/publish"
+```
+
+<!-- tabs:end -->
+
+-   `name` <string\> Event name.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string"
+    }
+    ```
+
+    </details>
+
+-   `args?` <Buffer\> Array of the event arguments, encoded with `MessagePack`.
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "instanceof": "Buffer"
     }
     ```
 
