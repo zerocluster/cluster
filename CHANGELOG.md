@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.7.7 (2023-05-05)
+
+Fixes:
+
+-   fix: semaphore set .has method added
+
 ### 1.7.6 (2023-05-05)
 
 Fixes:
