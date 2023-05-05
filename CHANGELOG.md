@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.7.6 (2023-05-05)
+
+Fixes:
+
+-   fix: semaphore shutdown
+
 ### 1.7.5 (2023-04-22)
 
 Fixes:
