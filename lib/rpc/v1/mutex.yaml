@@ -10,8 +10,8 @@ methods:
         schema:
           type: string
 
-  try-down:
-    title: Try down mutex
+  try-lock:
+    title: Try lock mutex
     persistentConnectionRequired: true
     params:
       - name: mutex_id
@@ -19,8 +19,8 @@ methods:
         schema:
           type: string
 
-  down:
-    title: Down mutex
+  lock:
+    title: Lock mutex
     persistentConnectionRequired: true
     params:
       - name: mutex_id
@@ -28,8 +28,8 @@ methods:
         schema:
           type: string
 
-  up:
-    title: Up mutex
+  unlock:
+    title: Unlock mutex
     persistentConnectionRequired: true
     params:
       - name: mutex_id
