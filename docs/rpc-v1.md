@@ -64,7 +64,7 @@ curl \
 
     </details>
 
-### Try down mutex
+### Try lock mutex
 
 <!-- tabs:start -->
 
@@ -72,7 +72,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/mutex/try-down", mutex_id? );
+const res = await api.call( "/v1/mutex/try-lock", mutex_id? );
 ```
 
 #### **Shell**
@@ -81,7 +81,7 @@ const res = await api.call( "/v1/mutex/try-down", mutex_id? );
 ```shell
 curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    "http://core/api/v1/mutex/try-down"
+    "http://core/api/v1/mutex/try-lock"
 ```
 
 <!-- tabs:end -->
@@ -99,7 +99,7 @@ curl \
 
     </details>
 
-### Down mutex
+### Lock mutex
 
 <!-- tabs:start -->
 
@@ -107,7 +107,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/mutex/down", mutex_id? );
+const res = await api.call( "/v1/mutex/lock", mutex_id? );
 ```
 
 #### **Shell**
@@ -116,7 +116,7 @@ const res = await api.call( "/v1/mutex/down", mutex_id? );
 ```shell
 curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    "http://core/api/v1/mutex/down"
+    "http://core/api/v1/mutex/lock"
 ```
 
 <!-- tabs:end -->
@@ -134,7 +134,7 @@ curl \
 
     </details>
 
-### Up mutex
+### Unlock mutex
 
 <!-- tabs:start -->
 
@@ -142,7 +142,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/mutex/up", mutex_id );
+const res = await api.call( "/v1/mutex/unlock", mutex_id );
 ```
 
 #### **Shell**
@@ -151,7 +151,7 @@ const res = await api.call( "/v1/mutex/up", mutex_id );
 ```shell
 curl \
     -H "Authorization: Bearer <YOUR-API-TOKEN>" \
-    "http://core/api/v1/mutex/up"
+    "http://core/api/v1/mutex/unlock"
 ```
 
 <!-- tabs:end -->
