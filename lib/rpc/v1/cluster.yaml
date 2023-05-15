@@ -10,6 +10,6 @@ methods:
         schema:
           type: string
       - name: args
-        description: Array of the event arguments, encoded with `MessagePack`.
+        description: Array of the event arguments, encoded with `JSON`.
         schema:
           instanceof: Buffer
