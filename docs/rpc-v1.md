@@ -72,7 +72,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/mutex/try-lock", mutex_id? );
+const res = await api.call( "/v1/mutex/try-lock", mutex_id );
 ```
 
 #### **Shell**
@@ -86,7 +86,7 @@ curl \
 
 <!-- tabs:end -->
 
--   `mutex_id?` <string\> Mutex id.
+-   `mutex_id` <string\> Mutex id.
 
     <details>
         <summary>JSON schema</summary>
@@ -107,7 +107,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/mutex/lock", mutex_id? );
+const res = await api.call( "/v1/mutex/lock", mutex_id );
 ```
 
 #### **Shell**
@@ -121,7 +121,7 @@ curl \
 
 <!-- tabs:end -->
 
--   `mutex_id?` <string\> Mutex id.
+-   `mutex_id` <string\> Mutex id.
 
     <details>
         <summary>JSON schema</summary>
@@ -142,7 +142,7 @@ curl \
 
 <!-- prettier-ignore -->
 ```javascript
-const res = await api.call( "/v1/mutex/unlock", mutex_id );
+const res = await api.call( "/v1/mutex/unlock", mutex_id, lock_id );
 ```
 
 #### **Shell**
@@ -164,6 +164,20 @@ curl \
     ```json
     {
         "type": "string"
+    }
+    ```
+
+    </details>
+
+-   `lock_id` <string\>
+
+    <details>
+        <summary>JSON schema</summary>
+
+    ```json
+    {
+        "type": "string",
+        "format": "uuid"
     }
     ```
 
@@ -206,7 +220,7 @@ curl \
 
     </details>
 
--   `args?` <Buffer\> Array of the event arguments, encoded with `MessagePack`.
+-   `args?` <Buffer\> Array of the event arguments, encoded with `JSON`.
 
     <details>
         <summary>JSON schema</summary>

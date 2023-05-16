@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.1 (2023-05-16)
+
+Fixes:
+
+-   fix: shared mutex
+
 ### 1.8.0 (2023-05-06)
 
 Features:
