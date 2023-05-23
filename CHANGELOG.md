@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.2 (2023-05-23)
+
+Fixes:
+
+-   fix: app publish
+
 ### 1.8.1 (2023-05-16)
 
 Fixes:
