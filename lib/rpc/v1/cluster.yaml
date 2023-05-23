@@ -12,4 +12,4 @@ methods:
       - name: args
         description: Array of the event arguments, encoded with `JSON`.
         schema:
-          instanceof: Buffer
+          type: string
