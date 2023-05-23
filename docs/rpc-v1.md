@@ -220,14 +220,14 @@ curl \
 
     </details>
 
--   `args?` <Buffer\> Array of the event arguments, encoded with `JSON`.
+-   `args?` <string\> Array of the event arguments, encoded with `JSON`.
 
     <details>
         <summary>JSON schema</summary>
 
     ```json
     {
-        "instanceof": "Buffer"
+        "type": "string"
     }
     ```
 
