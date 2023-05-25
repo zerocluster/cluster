@@ -2,7 +2,6 @@ dependencies:
   - "@softvisio/core"
 
 components:
-  privateHttpServer: ~
-  rpc: ~
+  rpc: true
 
 config: ~
