@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.6 (2023-05-29)
+
+Fixes:
+
+-   fix: docker stack schema
+
 ### 1.8.5 (2023-05-29)
 
 Fixes:
