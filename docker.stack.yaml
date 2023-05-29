@@ -26,6 +26,8 @@ services:
     # environment:
     #   NODE_ENV: development
 
+    command: --service test
+
     networks: [main]
 
     volumes:
