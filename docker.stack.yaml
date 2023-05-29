@@ -26,7 +26,7 @@ services:
     # environment:
     #   NODE_ENV: development
 
-    command: --service test
+    command: --service default
 
     networks: [main]
 
