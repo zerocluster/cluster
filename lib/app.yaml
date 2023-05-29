@@ -1,7 +1,10 @@
 dependencies:
   - "@softvisio/core"
 
-components:
-  rpc: true
+services:
+  defailt:
+    rpc: true
+
+components: ~
 
 config: ~
