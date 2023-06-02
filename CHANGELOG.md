@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.9 (2023-06-02)
+
+Fixes:
+
+-   fix: events
+
 ### 1.8.8 (2023-05-29)
 
 Fixes:
