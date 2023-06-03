@@ -13,10 +13,7 @@ methods:
           type: object
           properties:
             name: { type: string }
-            users:
-              anyOf:
-                - type: "null"
-                - type: array
+            users: { type: ["null", string, array] }
             data: { type: string }
           additionalProperties: false
           required: [name]
