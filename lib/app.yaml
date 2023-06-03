@@ -5,8 +5,6 @@ services:
   default:
     rpc: true
 
-components:
-  privateHttpServer:
-    port: 82
+components: ~
 
 config: ~
