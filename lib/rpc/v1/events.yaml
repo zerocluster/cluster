@@ -4,7 +4,7 @@ methods:
   publish:
     title: Publish event
     params:
-      - name: cluster-id
+      - name: cluster_id
         required: true
         schema: { type: string }
       - name: event
