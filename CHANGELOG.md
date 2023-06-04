@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.15 (2023-06-04)
+
+Fixes:
+
+-   fix: app init
+
 ### 1.8.14 (2023-06-03)
 
 Fixes:
