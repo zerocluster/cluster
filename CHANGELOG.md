@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.17 (2023-06-04)
+
+Fixes:
+
+-   fix: app service
+
 ### 1.8.16 (2023-06-04)
 
 Fixes:
