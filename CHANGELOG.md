@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.3 (2023-06-27)
+
+Fixes:
+
+-   fix: env test
+
 ### 1.10.2 (2023-06-27)
 
 Fixes:
