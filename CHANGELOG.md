@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.1 (2023-06-27)
+
+Fixes:
+
+-   fix: ctx abort signal
+
 ### 1.10.0 (2023-06-26)
 
 Features:
