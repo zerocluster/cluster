@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.18 (2023-07-25)
+
+Fixes:
+
+-   fix: log remove
+
 ### 1.10.17 (2023-07-25)
 
 Fixes:
