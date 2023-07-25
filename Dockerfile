@@ -1,6 +1,6 @@
 FROM ghcr.io/zerocluster/node
 
-ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec `node -e 'console.log(require(\"./package.json\").scripts.docker)'`", "\"$@\"" ]
+ENTRYPOINT [ "/bin/bash", "-l", "-c", "exec `node -e 'console.log(require(\"./package.json\").scripts.docker)'` `echo \"$@\"`" ]
 
 RUN \
     # install deps
