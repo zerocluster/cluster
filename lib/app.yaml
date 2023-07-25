@@ -3,7 +3,8 @@ dependencies:
 
 services:
   rpc:
-    rpc: true
+    components:
+      rpc: true
 
 defaultService: rpc
 
