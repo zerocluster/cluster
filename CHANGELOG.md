@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.6 (2023-07-25)
+
+Fixes:
+
+-   fix: track disconnect
+
 ### 1.10.5 (2023-07-06)
 
 Fixes:
