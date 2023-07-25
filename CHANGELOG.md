@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.11 (2023-07-25)
+
+Fixes:
+
+-   fix: git upstream file url
+
 ### 1.10.10 (2023-07-25)
 
 Fixes:
