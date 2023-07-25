@@ -1,6 +1,6 @@
 {
     "name": "@zerocluster/core",
-    "version": "1.10.13",
+    "version": "1.10.14",
     "private": true,
     "description": "Core service",
     "keywords": [
