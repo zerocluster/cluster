@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.20 (2023-07-28)
+
+Fixes:
+
+-   fix: docker build refactored
+
 ### 1.10.19 (2023-07-25)
 
 Fixes:
