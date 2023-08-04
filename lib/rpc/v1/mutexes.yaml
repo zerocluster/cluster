@@ -44,6 +44,3 @@ methods:
         schema:
           type: string
           format: uuid
-
-  test:
-    title: test
