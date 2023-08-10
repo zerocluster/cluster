@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.29 (2023-08-10)
+
+Fixes:
+
+-   fix: mutex debug
+
 ### 1.10.28 (2023-08-04)
 
 Fixes:
