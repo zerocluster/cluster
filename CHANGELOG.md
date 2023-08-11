@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.30 (2023-08-11)
+
+Fixes:
+
+-   fix: websockets default idle timeout 120
+
 ### 1.10.29 (2023-08-10)
 
 Fixes:
