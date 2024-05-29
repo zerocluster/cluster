@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.40 (2024-05-29)
+
+Fixes:
+
+-   fix: email address
+
 ### 1.10.39 (2024-04-24)
 
 Fixes:
