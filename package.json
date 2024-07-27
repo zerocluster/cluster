@@ -1,20 +1,20 @@
 {
-    "name": "@zerocluster/core",
+    "name": "@zerocluster/cluster",
     "version": "1.10.45",
     "private": true,
-    "description": "Core service",
+    "description": "Cluster service",
     "keywords": [
         "zerocluster    ",
-        "core"
+        "cluster"
     ],
-    "homepage": "https://zerocluster.github.io/core/",
+    "homepage": "https://zerocluster.github.io/cluster/",
     "bugs": {
-        "url": "https://github.com/zerocluster/core/issues",
+        "url": "https://github.com/zerocluster/cluster/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zerocluster/core.git"
+        "url": "git+https://github.com/zerocluster/cluster.git"
     },
     "license": "Proprietary Software",
     "author": "root <root@softvisio.net>",

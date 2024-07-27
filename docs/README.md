@@ -5,7 +5,7 @@
 ## Install
 
 ```shell
-npm i @zerocluster/core
+npm i @zerocluster/cluster
 ```
 
 ## Usage

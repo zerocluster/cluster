@@ -1,11 +1,11 @@
-#!/usr/bin/env -S docker stack deploy --with-registry-auth core -c
+#!/usr/bin/env -S docker stack deploy --with-registry-auth cluster -c
 
 # NOTE deploy
-# docker stack deploy --with-registry-auth -c docker-stack.yaml core
+# docker stack deploy --with-registry-auth -c docker-stack.yaml cluster
 
 services:
-  core:
-    image: ghcr.io/zerocluster/core
+  cluster:
+    image: ghcr.io/zerocluster/cluster
     init: true
     stop_grace_period: 5m
 
