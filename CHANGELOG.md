@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.46 (2024-07-27)
+
+Fixes:
+
+-   fix: package renamed
+
 ### 1.10.45 (2024-07-26)
 
 Fixes:
