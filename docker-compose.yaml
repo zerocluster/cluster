@@ -1,8 +1,3 @@
-#!/usr/bin/env -S docker stack deploy --with-registry-auth cluster -c
-
-# NOTE deploy
-# docker stack deploy --with-registry-auth -c docker-stack.yaml cluster
-
 services:
   cluster:
     image: ghcr.io/zerocluster/cluster
@@ -24,6 +19,4 @@ services:
     build: .
 
 networks:
-  network:
-    name: ${DOCKER_STACK_NETWORK_NAME:-main}
-    external: true
+  network: ~
