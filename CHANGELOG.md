@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.61 (2024-09-15)
+
+Fixes:
+
+-   fix: app
+
 ### 1.10.60 (2024-09-13)
 
 No notable changes since the previous release.
