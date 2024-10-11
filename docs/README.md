@@ -5,9 +5,5 @@
 ## Install
 
 ```shell
-npm i @zerocluster/cluster
+npm install @zerocluster/cluster
 ```
-
-## Usage
-
-<!-- Tell about how to use the project, give code examples -->

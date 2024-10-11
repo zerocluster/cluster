@@ -1,6 +1,6 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> :information_source: Please, see the full project documentation here: [https://zerocluster.github.io/cluster/](https://zerocluster.github.io/cluster/).
+> :information_source: Please, see the full project documentation here:<br>[https://zerocluster.github.io/cluster/](https://zerocluster.github.io/cluster/)
 
 # Introduction
 
@@ -9,9 +9,5 @@
 ## Install
 
 ```shell
-npm i @zerocluster/cluster
+npm install @zerocluster/cluster
 ```
-
-## Usage
-
-<!-- Tell about how to use the project, give code examples -->
