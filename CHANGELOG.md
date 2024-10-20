@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.66 (2024-10-20)
+
+No notable changes since the previous release.
+
+[Full list of the changes](https://github.com/zerocluster/cluster/compare/v1.10.65...v1.10.66)
+
 ### 1.10.65 (2024-10-17)
 
 No notable changes since the previous release.
