@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.69 (2024-10-25)
+
+Other changes:
+
+-   chore: update package dependencies
+
+[Compare with the previous release: v1.10.68 ... v1.10.69](https://github.com/zerocluster/cluster/compare/v1.10.68...v1.10.69)
+
 ### 1.10.68 (2024-10-24)
 
 Other changes:
