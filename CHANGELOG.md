@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.74 (2024-12-03)
+
+Other changes:
+
+- chore: lint
+- chore: update package dependencies
+
+[Compare with the previous release: v1.10.73 ... v1.10.74](https://github.com/zerocluster/cluster/compare/v1.10.73...v1.10.74)
+
 ### 1.10.73 (2024-11-27)
 
 Other changes:
