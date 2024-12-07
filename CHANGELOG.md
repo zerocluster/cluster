@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.10.76 (2024-12-07)
+
+Other changes:
+
+- chore: set yaml indent to 4 spaces
+- chore: update docs
+- chore: update package dependencies
+
+[Compare with the previous release: v1.10.75 ... v1.10.76](https://github.com/zerocluster/cluster/compare/v1.10.75...v1.10.76)
+
 ### 1.10.75 (2024-12-06)
 
 Other changes:
