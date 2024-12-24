@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.77 (2024-12-24)
+
+Other changes:
+
+- chore: refactor mime
+- chore: update package dependencies
+
+[Compare with the previous release: v1.10.76 ... v1.10.77](https://github.com/zerocluster/cluster/compare/v1.10.76...v1.10.77)
+
 ### 1.10.76 (2024-12-07)
 
 Other changes:
