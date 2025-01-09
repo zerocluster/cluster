@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.84 (2025-01-09)
+
+Other changes:
+
+- chore: update package dependencies
+
+[Compare with the previous release: v1.10.83 ... v1.10.84](https://github.com/zerocluster/cluster/compare/v1.10.83...v1.10.84)
+
 ### 1.10.83 (2025-01-08)
 
 Other changes:
