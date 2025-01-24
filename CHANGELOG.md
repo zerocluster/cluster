@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.93 (2025-01-24)
+
+No changes since the previous release.
+
+Compare with the previous release: [`v1.10.92...v1.10.93`](https://github.com/zerocluster/cluster/compare/v1.10.92...v1.10.93)
+
 ### 1.10.92 (2025-01-24)
 
 Other changes:
