@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.101 (2025-02-19)
+
+Other changes:
+
+- chore: update cli config
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.100...v1.10.101`](https://github.com/zerocluster/cluster/compare/v1.10.100...v1.10.101)
+
 ### 1.10.100 (2025-02-17)
 
 Other changes:
