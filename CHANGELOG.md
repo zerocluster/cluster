@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.104 (2025-02-26)
+
+Other changes:
+
+- chore: update editorconfig
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.103...v1.10.104`](https://github.com/zerocluster/cluster/compare/v1.10.103...v1.10.104)
+
 ### 1.10.103 (2025-02-20)
 
 Other changes:
