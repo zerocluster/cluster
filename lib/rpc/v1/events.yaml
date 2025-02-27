@@ -1,19 +1,19 @@
 title: Cluster events
 
 methods:
-    publish:
-        title: Publish event
-        params:
-            - name: cluster_id
-              required: true
-              schema: { type: string }
-            - name: event
-              required: true
-              schema:
-                  type: object
-                  properties:
-                      name: { type: string }
-                      users: { type: ["null", string, array] }
-                      data: { type: string }
-                  additionalProperties: false
-                  required: [name]
+  publish:
+    title: Publish event
+    params:
+      - name: cluster_id
+        required: true
+        schema: { type: string }
+      - name: event
+        required: true
+        schema:
+          type: object
+          properties:
+            name: { type: string }
+            users: { type: ["null", string, array] }
+            data: { type: string }
+          additionalProperties: false
+          required: [name]

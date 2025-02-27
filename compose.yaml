@@ -1,22 +1,22 @@
 services:
-    cluster:
-        image: ghcr.io/zerocluster/cluster
-        init: true
-        stop_grace_period: 5m
+  cluster:
+    image: ghcr.io/zerocluster/cluster
+    init: true
+    stop_grace_period: 5m
 
-        deploy:
-            replicas: 1
-            placement:
-                max_replicas_per_node: 1
+    deploy:
+      replicas: 1
+      placement:
+        max_replicas_per_node: 1
 
-        command: run
+    command: run
 
-        networks: [network]
+    networks: [network]
 
-        volumes:
-            - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
+    volumes:
+      - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
 
-        build: .
+    build: .
 
 networks:
-    network: ~
+  network: ~
