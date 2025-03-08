@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.10.109 (2025-03-08)
+
+Other changes:
+
+- chore: fix shebang
+- chore: update package dependencies
+- chore: update package metadata
+
+Compare with the previous release: [`v1.10.108...v1.10.109`](https://github.com/zerocluster/cluster/compare/v1.10.108...v1.10.109)
+
 ### 1.10.108 (2025-03-03)
 
 Other changes:
