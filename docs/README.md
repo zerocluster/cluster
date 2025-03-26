@@ -4,6 +4,6 @@
 
 ## Install
 
-```shell
+```sh
 npm install @zerocluster/cluster
 ```
