@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.115 (2025-03-28)
+
+Other changes:
+
+- chore: update markdown code tags
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.114...v1.10.115`](https://github.com/zerocluster/cluster/compare/v1.10.114...v1.10.115)
+
 ### 1.10.114 (2025-03-20)
 
 Other changes:
