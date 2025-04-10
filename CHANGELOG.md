@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.120 (2025-04-10)
+
+Other changes:
+
+- chore: rename dockerfile
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.119...v1.10.120`](https://github.com/zerocluster/cluster/compare/v1.10.119...v1.10.120)
+
 ### 1.10.119 (2025-04-06)
 
 Other changes:
