@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.134 (2025-05-11)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies
+
+Compare with the previous release: [`v1.10.133...v1.10.134`](https://github.com/zerocluster/cluster/compare/v1.10.133...v1.10.134)
+
 ### 1.10.133 (2025-05-10)
 
 **Other changes:**
