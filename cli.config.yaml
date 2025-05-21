@@ -16,4 +16,4 @@ docs:
 
   app:
     rpc:
-      url: ws://cluster/api
+      url: ws://cluster:81/api
