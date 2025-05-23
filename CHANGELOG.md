@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.139 (2025-05-23)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v1.10.138...v1.10.139`](https://github.com/zerocluster/cluster/compare/v1.10.138...v1.10.139)
+
 ### v1.10.138 (2025-05-21)
 
 **Other changes:**
