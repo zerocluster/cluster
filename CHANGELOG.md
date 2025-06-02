@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.10.145 (2025-06-02)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+**Included pre-releases:**
+
+- \[PATCH] chore: release v1.10.145-rc.0 (👬 zdm)
+
+Compare with the previous release: [v1.10.144](https://github.com/zerocluster/cluster/compare/v1.10.144...v1.10.145)
+
 ### v1.10.145-rc.0 (2025-06-02)
 
 **Other changes:**
