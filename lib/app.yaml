@@ -8,6 +8,8 @@ services:
 
 defaultService: rpc
 
-components: ~
+components:
+  env:
+    name: cluster
 
 config: ~
