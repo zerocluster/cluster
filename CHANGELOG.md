@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.158 (2025-06-13)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [fecdbac](https://github.com/zerocluster/cluster/commit/fecdbac), [b529878](https://github.com/zerocluster/cluster/commit/b529878); 👬 zdm)
+
+Compare with the previous release: [v1.10.157](https://github.com/zerocluster/cluster/compare/v1.10.157...v1.10.158)
+
 ### v1.10.157 (2025-06-12)
 
 **Other changes:**
