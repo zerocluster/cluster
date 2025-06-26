@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.10.164 (2025-06-26)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: fix bash invocation in scripts (● [423ac6f](https://github.com/zerocluster/cluster/commit/423ac6f); 👬 zdm)
+
+- \[PATCH] refactor: fix external bash scripts invocation (● [86fa00b](https://github.com/zerocluster/cluster/commit/86fa00b); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [3293439](https://github.com/zerocluster/cluster/commit/3293439); 👬 zdm)
+
+Compare with the previous release: [v1.10.163](https://github.com/zerocluster/cluster/compare/v1.10.163...v1.10.164)
+
 ### v1.10.163 (2025-06-25)
 
 **Other changes:**
