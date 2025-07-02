@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.10.165-alpha.0 (2025-07-02)
+
+**Other changes:**
+
+- build(deps): bump @softvisio/core 7.172.0-alpha.1 (● [356dd0a](https://github.com/zerocluster/cluster/commit/356dd0a); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [9d0a330](https://github.com/zerocluster/cluster/commit/9d0a330), [6b53649](https://github.com/zerocluster/cluster/commit/6b53649), [5e91801](https://github.com/zerocluster/cluster/commit/5e91801); 👬 zdm)
+
+- chore(deps): update package dependencies (● [588cfb5](https://github.com/zerocluster/cluster/commit/588cfb5); 👬 zdm)
+
+Compare with the previous release: [v1.10.164](https://github.com/zerocluster/cluster/compare/v1.10.164...v1.10.165-alpha.0)
+
 ### v1.10.164 (2025-06-26)
 
 **Code refactoring:**
