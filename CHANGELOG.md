@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.10.169 (2025-07-12)
+
+**Other changes:**
+
+- build(deps): bump @softvisio/core (● [69f00b2](https://github.com/zerocluster/cluster/commit/69f00b2); 👬 zdm)
+
+- build(deps): bump dependencies (● [819bea4](https://github.com/zerocluster/cluster/commit/819bea4); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [b8a8887](https://github.com/zerocluster/cluster/commit/b8a8887), [5dbbc9f](https://github.com/zerocluster/cluster/commit/5dbbc9f), [08fbb51](https://github.com/zerocluster/cluster/commit/08fbb51); 👬 zdm)
+
+**Included pre-releases:**
+
+- build(release): release v1.10.169-alpha.0 (● [e6e7dc4](https://github.com/zerocluster/cluster/commit/e6e7dc4); 👬 zdm)
+
+Compare with the previous release: [v1.10.168](https://github.com/zerocluster/cluster/compare/v1.10.168...v1.10.169)
+
 ### v1.10.169-alpha.0 (2025-07-12)
 
 **Other changes:**
