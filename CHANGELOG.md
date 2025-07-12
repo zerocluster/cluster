@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.10.169-alpha.0 (2025-07-12)
+
+**Other changes:**
+
+- build(deps): bump dependencies (● [819bea4](https://github.com/zerocluster/cluster/commit/819bea4); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [5dbbc9f](https://github.com/zerocluster/cluster/commit/5dbbc9f), [08fbb51](https://github.com/zerocluster/cluster/commit/08fbb51); 👬 zdm)
+
+Compare with the previous release: [v1.10.168](https://github.com/zerocluster/cluster/compare/v1.10.168...v1.10.169-alpha.0)
+
 ### v1.10.168 (2025-07-04)
 
 **Other changes:**
