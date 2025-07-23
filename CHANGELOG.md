@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.10.175 (2025-07-23)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix editorconfig (● [5970845](https://github.com/zerocluster/cluster/commit/5970845); 👬 zdm)
+
+- \[PATCH] fix: update editorconfig (● [1ae6106](https://github.com/zerocluster/cluster/commit/1ae6106); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [d2b4131](https://github.com/zerocluster/cluster/commit/d2b4131); 👬 zdm)
+
+Compare with the previous release: [v1.10.174](https://github.com/zerocluster/cluster/compare/v1.10.174...v1.10.175)
+
 ### v1.10.174 (2025-07-16)
 
 **Other changes:**
