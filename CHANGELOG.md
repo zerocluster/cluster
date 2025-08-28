@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.186 (2025-08-28)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [b856507](https://github.com/zerocluster/cluster/commit/b856507); 👬 zdm)
+
+Compare with the previous release: [v1.10.185](https://github.com/zerocluster/cluster/compare/v1.10.185...v1.10.186)
+
 ### v1.10.185 (2025-08-23)
 
 **Other changes:**
