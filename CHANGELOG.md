@@ -206,7 +206,7 @@ Compare with the previous release: [v1.10.169](https://github.com/zerocluster/cl
 
 **Other changes:**
 
-- build(deps): bump @softvisio/core (● [69f00b2](https://github.com/zerocluster/cluster/commit/69f00b2); 👬 zdm)
+- build(deps): bump @c0rejs/core (● [69f00b2](https://github.com/zerocluster/cluster/commit/69f00b2); 👬 zdm)
 
 - build(deps): bump dependencies (● [819bea4](https://github.com/zerocluster/cluster/commit/819bea4); 👬 zdm)
 
@@ -256,9 +256,9 @@ Compare with the previous release: [v1.10.165](https://github.com/zerocluster/cl
 
 **Other changes:**
 
-- build(deps): bump @softvisio/core 7.172.0 (● [0f9b25e](https://github.com/zerocluster/cluster/commit/0f9b25e); 👬 zdm)
+- build(deps): bump @c0rejs/core 7.172.0 (● [0f9b25e](https://github.com/zerocluster/cluster/commit/0f9b25e); 👬 zdm)
 
-- build(deps): bump @softvisio/core 7.172.0-alpha.1 (● [356dd0a](https://github.com/zerocluster/cluster/commit/356dd0a); 👬 zdm)
+- build(deps): bump @c0rejs/core 7.172.0-alpha.1 (● [356dd0a](https://github.com/zerocluster/cluster/commit/356dd0a); 👬 zdm)
 
 - chore(deps): update locked dependencies (● [7e2ae4f](https://github.com/zerocluster/cluster/commit/7e2ae4f), [9d0a330](https://github.com/zerocluster/cluster/commit/9d0a330), [6b53649](https://github.com/zerocluster/cluster/commit/6b53649), [5e91801](https://github.com/zerocluster/cluster/commit/5e91801); 👬 zdm)
 
@@ -274,7 +274,7 @@ Compare with the previous release: [v1.10.164](https://github.com/zerocluster/cl
 
 **Other changes:**
 
-- build(deps): bump @softvisio/core 7.172.0-alpha.1 (● [356dd0a](https://github.com/zerocluster/cluster/commit/356dd0a); 👬 zdm)
+- build(deps): bump @c0rejs/core 7.172.0-alpha.1 (● [356dd0a](https://github.com/zerocluster/cluster/commit/356dd0a); 👬 zdm)
 
 - chore(deps): update locked dependencies (● [9d0a330](https://github.com/zerocluster/cluster/commit/9d0a330), [6b53649](https://github.com/zerocluster/cluster/commit/6b53649), [5e91801](https://github.com/zerocluster/cluster/commit/5e91801); 👬 zdm)
 
