@@ -1,6 +1,10 @@
 FROM ghcr.io/zerocluster/node/app
 
 RUN \
+    --mount=type=secret,id=GITHUB_TOKEN,env=GITHUB_TOKEN \
+    --mount=type=secret,id=NPM_TOKEN_NPMJS,env=NPM_TOKEN_NPMJS \
+    --mount=type=secret,id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB \
+    \
     # install dependencies
     NODE_ENV=production npm install-clean \
     \
