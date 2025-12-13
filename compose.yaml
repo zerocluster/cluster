@@ -20,8 +20,8 @@ services:
       context: .
       secrets:
         - id=GITHUB_TOKEN,env=GITHUB_TOKEN
-        - id=NPM_TOKEN_NPMJS,env=NPM_TOKEN_NPMJS
         - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
+        - id=NPM_TOKEN_NPMJS,env=NPM_TOKEN_NPMJS
 
 networks:
   network: ~
