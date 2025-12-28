@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.11.0 (2025-12-28)
+
+**New features:**
+
+- \[MINOR] feat: add docker build secrets (● [d08a445](https://github.com/zerocluster/cluster/commit/d08a445), [fbe3add](https://github.com/zerocluster/cluster/commit/fbe3add), [37226bc](https://github.com/zerocluster/cluster/commit/37226bc); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [c5c5603](https://github.com/zerocluster/cluster/commit/c5c5603); 👬 zdm)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [f15c5d2](https://github.com/zerocluster/cluster/commit/f15c5d2), [4137aaa](https://github.com/zerocluster/cluster/commit/4137aaa), [c769112](https://github.com/zerocluster/cluster/commit/c769112), [98ea38f](https://github.com/zerocluster/cluster/commit/98ea38f); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [59b3981](https://github.com/zerocluster/cluster/commit/59b3981), [965e47d](https://github.com/zerocluster/cluster/commit/965e47d), [9d87b43](https://github.com/zerocluster/cluster/commit/9d87b43), [4248b5d](https://github.com/zerocluster/cluster/commit/4248b5d), [ebb0e10](https://github.com/zerocluster/cluster/commit/ebb0e10), [13a1683](https://github.com/zerocluster/cluster/commit/13a1683), [ad81eaa](https://github.com/zerocluster/cluster/commit/ad81eaa), [9d72000](https://github.com/zerocluster/cluster/commit/9d72000), [d2c6cac](https://github.com/zerocluster/cluster/commit/d2c6cac), [50c1ef0](https://github.com/zerocluster/cluster/commit/50c1ef0), [45f7629](https://github.com/zerocluster/cluster/commit/45f7629), [a6978a1](https://github.com/zerocluster/cluster/commit/a6978a1), [8776a44](https://github.com/zerocluster/cluster/commit/8776a44); 👬 zdm)
+
+Compare with the previous release: [v1.10.193](https://github.com/zerocluster/cluster/compare/v1.10.193...v1.11.0)
+
 ### v1.10.193 (2025-11-12)
 
 **Other changes:**
