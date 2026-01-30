@@ -1,5 +1,11 @@
 # Changelog
 
+### v1.11.10 (2026-01-30)
+
+No changes since the previous release.
+
+Compare with the previous release: [v1.11.9](https://github.com/zerocluster/cluster/compare/v1.11.9...v1.11.10)
+
 ### v1.11.9 (2026-01-30)
 
 No changes since the previous release.
