@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.11.13 (2026-01-31)
+
+**Other changes:**
+
+- chore: rename c0rejs namespace (● [ee23844](https://github.com/zerocluster/cluster/commit/ee23844), [1be1384](https://github.com/zerocluster/cluster/commit/1be1384); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [57451b4](https://github.com/zerocluster/cluster/commit/57451b4); 👬 zdm)
+
+Compare with the previous release: [v1.11.12](https://github.com/zerocluster/cluster/compare/v1.11.12...v1.11.13)
+
 ### v1.11.12 (2026-01-30)
 
 No changes since the previous release.
