@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.16 (2026-02-05)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [daa79b3](https://github.com/zerocluster/cluster/commit/daa79b3); 👬 zdm)
+
+Compare with the previous release: [v1.11.15](https://github.com/zerocluster/cluster/compare/v1.11.15...v1.11.16)
+
 ### v1.11.15 (2026-02-05)
 
 **Other changes:**
