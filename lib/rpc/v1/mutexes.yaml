@@ -12,7 +12,7 @@ methods:
 
   try-lock:
     title: Try lock mutex
-    requirePersistentConnection: true
+    connectionType: websockets
     params:
       - name: mutex_id
         description: Mutex id.
@@ -22,7 +22,7 @@ methods:
 
   lock:
     title: Lock mutex
-    requirePersistentConnection: true
+    connectionType: websockets
     params:
       - name: mutex_id
         description: Mutex id.
@@ -32,7 +32,7 @@ methods:
 
   unlock:
     title: Unlock mutex
-    requirePersistentConnection: true
+    connectionType: websockets
     params:
       - name: mutex_id
         description: Mutex id.
