@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.11.22 (2026-03-03)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: change api requirePersistentConnection to connectionType (● [b339998](https://github.com/zerocluster/cluster/commit/b339998); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [2c94412](https://github.com/zerocluster/cluster/commit/2c94412), [e7d50a3](https://github.com/zerocluster/cluster/commit/e7d50a3); 👬 zdm)
+
+Compare with the previous release: [v1.11.21](https://github.com/zerocluster/cluster/compare/v1.11.21...v1.11.22)
+
 ### v1.11.21 (2026-03-02)
 
 **Other changes:**
