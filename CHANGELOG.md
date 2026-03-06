@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.11.23 (2026-03-06)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [9f65700](https://github.com/zerocluster/cluster/commit/9f65700), [5896732](https://github.com/zerocluster/cluster/commit/5896732); 👬 zdm)
+
+- chore(metadata): update package metadata (● [3f6d1bf](https://github.com/zerocluster/cluster/commit/3f6d1bf); 👬 zdm)
+
+Compare with the previous release: [v1.11.22](https://github.com/zerocluster/cluster/compare/v1.11.22...v1.11.23)
+
 ### v1.11.22 (2026-03-03)
 
 **Code refactoring:**
