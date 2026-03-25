@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.29 (2026-03-25)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [cee615c](https://github.com/zerocluster/cluster/commit/cee615c); 👬 zdm)
+
+Compare with the previous release: [v1.11.28](https://github.com/zerocluster/cluster/compare/v1.11.28...v1.11.29)
+
 ### v1.11.28 (2026-03-24)
 
 **Other changes:**
