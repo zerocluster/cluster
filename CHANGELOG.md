@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.11.45 (2026-04-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update dockerfile (● [cd5c03f](https://github.com/zerocluster/cluster/commit/cd5c03f); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [32595ab](https://github.com/zerocluster/cluster/commit/32595ab), [11b85d3](https://github.com/zerocluster/cluster/commit/11b85d3), [223293e](https://github.com/zerocluster/cluster/commit/223293e), [7e8bc50](https://github.com/zerocluster/cluster/commit/7e8bc50); 👬 zdm)
+
+Compare with the previous release: [v1.11.44](https://github.com/zerocluster/cluster/compare/v1.11.44...v1.11.45)
+
 ### v1.11.44 (2026-04-10)
 
 **Other changes:**
