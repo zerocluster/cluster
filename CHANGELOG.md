@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.11.46 (2026-04-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dockerfile errors handler (● [9e0818d](https://github.com/zerocluster/cluster/commit/9e0818d); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [f03b2c4](https://github.com/zerocluster/cluster/commit/f03b2c4); 👬 zdm)
+
+Compare with the previous release: [v1.11.45](https://github.com/zerocluster/cluster/compare/v1.11.45...v1.11.46)
+
 ### v1.11.45 (2026-04-14)
 
 **Code refactoring:**
