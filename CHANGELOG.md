@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.11.48 (2026-04-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix sh error trap (● [8791652](https://github.com/zerocluster/cluster/commit/8791652); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [9929223](https://github.com/zerocluster/cluster/commit/9929223); 👬 zdm)
+
+- \[PATCH] refactor: update sh error trap (● [0286915](https://github.com/zerocluster/cluster/commit/0286915); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [6a55814](https://github.com/zerocluster/cluster/commit/6a55814), [7a7f6ff](https://github.com/zerocluster/cluster/commit/7a7f6ff), [de3e6c6](https://github.com/zerocluster/cluster/commit/de3e6c6), [e604109](https://github.com/zerocluster/cluster/commit/e604109), [b165126](https://github.com/zerocluster/cluster/commit/b165126), [bb2ff8e](https://github.com/zerocluster/cluster/commit/bb2ff8e), [2da1682](https://github.com/zerocluster/cluster/commit/2da1682); 👬 zdm)
+
+Compare with the previous release: [v1.11.47...v1.11.48](https://github.com/zerocluster/cluster/compare/v1.11.47...v1.11.48)
+
 ### v1.11.47 (2026-04-20)
 
 **Other changes:**
