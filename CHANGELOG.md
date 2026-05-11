@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.11.50 (2026-05-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor uuid (● [f8dfe93](https://github.com/zerocluster/cluster/commit/f8dfe93); 👬 zdm)
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [001b85b](https://github.com/zerocluster/cluster/commit/001b85b); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [0b7689b](https://github.com/zerocluster/cluster/commit/0b7689b), [3dafb84](https://github.com/zerocluster/cluster/commit/3dafb84), [16de5f8](https://github.com/zerocluster/cluster/commit/16de5f8), [883c746](https://github.com/zerocluster/cluster/commit/883c746), [6e4998e](https://github.com/zerocluster/cluster/commit/6e4998e), [c583018](https://github.com/zerocluster/cluster/commit/c583018), [9fbab1d](https://github.com/zerocluster/cluster/commit/9fbab1d), [e3985cd](https://github.com/zerocluster/cluster/commit/e3985cd), [9582f85](https://github.com/zerocluster/cluster/commit/9582f85), [6a849cc](https://github.com/zerocluster/cluster/commit/6a849cc), [92a0bfd](https://github.com/zerocluster/cluster/commit/92a0bfd), [93defeb](https://github.com/zerocluster/cluster/commit/93defeb), [c2066ff](https://github.com/zerocluster/cluster/commit/c2066ff), [132992b](https://github.com/zerocluster/cluster/commit/132992b); 👬 zdm)
+
+Compare with the previous release: [v1.11.49...v1.11.50](https://github.com/zerocluster/cluster/compare/v1.11.49...v1.11.50)
+
 ### v1.11.49 (2026-04-29)
 
 **Other changes:**
