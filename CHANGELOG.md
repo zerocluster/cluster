@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.11.54 (2026-05-29)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename app service to main (● [6165c52](https://github.com/zerocluster/cluster/commit/6165c52); 👬 zdm)
+
+**Other changes:**
+
+- build: remove registries from .npmrc (● [1821058](https://github.com/zerocluster/cluster/commit/1821058); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [99d122d](https://github.com/zerocluster/cluster/commit/99d122d), [0a1a3e5](https://github.com/zerocluster/cluster/commit/0a1a3e5), [ff651ad](https://github.com/zerocluster/cluster/commit/ff651ad), [d3a1001](https://github.com/zerocluster/cluster/commit/d3a1001), [fb767e3](https://github.com/zerocluster/cluster/commit/fb767e3), [09aee24](https://github.com/zerocluster/cluster/commit/09aee24); 👬 zdm)
+
+Compare with the previous release: [v1.11.53...v1.11.54](https://github.com/zerocluster/cluster/compare/v1.11.53...v1.11.54)
+
 ### v1.11.53 (2026-05-19)
 
 **Other changes:**
