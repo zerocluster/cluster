@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.55 (2026-06-19)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [147e604](https://github.com/zerocluster/cluster/commit/147e604), [9e2ebd0](https://github.com/zerocluster/cluster/commit/9e2ebd0), [1d82af3](https://github.com/zerocluster/cluster/commit/1d82af3), [38c856a](https://github.com/zerocluster/cluster/commit/38c856a), [6cc883e](https://github.com/zerocluster/cluster/commit/6cc883e), [81f7913](https://github.com/zerocluster/cluster/commit/81f7913), [9fe9833](https://github.com/zerocluster/cluster/commit/9fe9833), [abe825f](https://github.com/zerocluster/cluster/commit/abe825f), [cfe71f0](https://github.com/zerocluster/cluster/commit/cfe71f0), [7bd15a6](https://github.com/zerocluster/cluster/commit/7bd15a6), [2f396b3](https://github.com/zerocluster/cluster/commit/2f396b3), [a41643a](https://github.com/zerocluster/cluster/commit/a41643a), [eccac89](https://github.com/zerocluster/cluster/commit/eccac89), [855b00c](https://github.com/zerocluster/cluster/commit/855b00c), [68bd404](https://github.com/zerocluster/cluster/commit/68bd404), [fb1a0f1](https://github.com/zerocluster/cluster/commit/fb1a0f1), [72a6cc6](https://github.com/zerocluster/cluster/commit/72a6cc6), [96282e4](https://github.com/zerocluster/cluster/commit/96282e4); 👬 zdm)
+
+Compare with the previous release: [v1.11.54...v1.11.55](https://github.com/zerocluster/cluster/compare/v1.11.54...v1.11.55)
+
 ### v1.11.54 (2026-05-29)
 
 **Code refactoring:**
