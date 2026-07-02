@@ -536,7 +536,7 @@ Compare with the previous release: [v1.11.0](https://github.com/zerocluster/clus
 
 **Bug fixes:**
 
-- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [c5c5603](https://github.com/zerocluster/cluster/commit/c5c5603); 👬 zdm)
+- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [c5c5603](https://github.com/zerocluster/cluster/commit/c5c5603); 👬 zdm)
 
 **Other changes:**
 
