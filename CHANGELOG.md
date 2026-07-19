@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.70 (2026-07-19)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [7850f11](https://github.com/zerocluster/cluster/commit/7850f11), [4ace8a0](https://github.com/zerocluster/cluster/commit/4ace8a0), [a1ad9ad](https://github.com/zerocluster/cluster/commit/a1ad9ad), [dd571c0](https://github.com/zerocluster/cluster/commit/dd571c0), [78ea082](https://github.com/zerocluster/cluster/commit/78ea082), [0d6091a](https://github.com/zerocluster/cluster/commit/0d6091a); 👬 zdm)
+
+Compare with the previous release: [v1.11.69...v1.11.70](https://github.com/zerocluster/cluster/compare/v1.11.69...v1.11.70)
+
 ### v1.11.69 (2026-07-09)
 
 **Other changes:**
