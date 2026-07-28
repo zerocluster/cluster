@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.76 (2026-07-28)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [dad119c](https://github.com/zerocluster/cluster/commit/dad119c); 👬 zdm)
+
+Compare with the previous release: [v1.11.75...v1.11.76](https://github.com/zerocluster/cluster/compare/v1.11.75...v1.11.76)
+
 ### v1.11.75 (2026-07-28)
 
 **Other changes:**
