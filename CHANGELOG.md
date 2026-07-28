@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.77 (2026-07-28)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [edb0494](https://github.com/zerocluster/cluster/commit/edb0494), [fefea2a](https://github.com/zerocluster/cluster/commit/fefea2a); 👬 zdm)
+
+Compare with the previous release: [v1.11.76...v1.11.77](https://github.com/zerocluster/cluster/compare/v1.11.76...v1.11.77)
+
 ### v1.11.76 (2026-07-28)
 
 **Other changes:**
