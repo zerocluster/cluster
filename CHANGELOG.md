@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.11.83 (2026-08-02)
+
+**Other changes:**
+
+- chore: rename softvisio to corejslib (● [bf910f5](https://github.com/zerocluster/cluster/commit/bf910f5); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [6aca85e](https://github.com/zerocluster/cluster/commit/6aca85e); 👬 zdm)
+
+Compare with the previous release: [v1.11.82...v1.11.83](https://github.com/zerocluster/cluster/compare/v1.11.82...v1.11.83)
+
 ### v1.11.82 (2026-08-01)
 
 **Other changes:**
