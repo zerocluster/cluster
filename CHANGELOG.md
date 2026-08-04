@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.11.87 (2026-08-04)
+
+**Other changes:**
+
+- chore: rename ccli to zcli (● [d5ff275](https://github.com/zerocluster/cluster/commit/d5ff275), [4455348](https://github.com/zerocluster/cluster/commit/4455348), [b47670e](https://github.com/zerocluster/cluster/commit/b47670e); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [26646e3](https://github.com/zerocluster/cluster/commit/26646e3); 👬 zdm)
+
+Compare with the previous release: [v1.11.86...v1.11.87](https://github.com/zerocluster/cluster/compare/v1.11.86...v1.11.87)
+
 ### v1.11.86 (2026-08-04)
 
 **Other changes:**
