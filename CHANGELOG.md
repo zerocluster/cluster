@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.91 (2026-08-21)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a4efba5](https://github.com/zerocluster/cluster/commit/a4efba5); 👬 zdm)
+
+Compare with the previous release: [v1.11.90...v1.11.91](https://github.com/zerocluster/cluster/compare/v1.11.90...v1.11.91)
+
 ### v1.11.90 (2026-08-20)
 
 **Other changes:**
