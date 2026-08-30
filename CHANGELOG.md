@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.11.95 (2026-08-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix shebang (● [d5cb936](https://github.com/zerocluster/cluster/commit/d5cb936); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [597050a](https://github.com/zerocluster/cluster/commit/597050a), [8442217](https://github.com/zerocluster/cluster/commit/8442217), [f8f89da](https://github.com/zerocluster/cluster/commit/f8f89da), [a2b172e](https://github.com/zerocluster/cluster/commit/a2b172e), [04e7478](https://github.com/zerocluster/cluster/commit/04e7478); 👬 zdm)
+
+Compare with the previous release: [v1.11.94...v1.11.95](https://github.com/zerocluster/cluster/compare/v1.11.94...v1.11.95)
+
 ### v1.11.94 (2026-08-27)
 
 **Other changes:**
