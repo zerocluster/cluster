@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.97 (2026-09-06)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [bbecfda](https://github.com/zerocluster/cluster/commit/bbecfda); 👬 zdm)
+
+Compare with the previous release: [v1.11.96...v1.11.97](https://github.com/zerocluster/cluster/compare/v1.11.96...v1.11.97)
+
 ### v1.11.96 (2026-09-05)
 
 **Other changes:**
