@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.11.104 (2026-09-15)
+
+**Other changes:**
+
+- chore: migrate to @corejslib/app (● [4bc44e2](https://github.com/zerocluster/cluster/commit/4bc44e2); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [ce6b0c2](https://github.com/zerocluster/cluster/commit/ce6b0c2); 👬 zdm)
+
+Compare with the previous release: [v1.11.103...v1.11.104](https://github.com/zerocluster/cluster/compare/v1.11.103...v1.11.104)
+
 ### v1.11.103 (2026-09-15)
 
 **Other changes:**
