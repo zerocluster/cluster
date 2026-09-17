@@ -1,0 +1,46 @@
+title: Service discovery
+
+emits:
+  - service-discovery/add-service/*/*
+  - service-discovery/delete-service/*/*
+
+methods:
+  register-service:
+    title: Register service instance
+    connectionType: websockets
+    params:
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            appName: { type: string, format: kebab-case }
+            serviceName: { type: string, format: kebab-case }
+            port: { type: integer, format: ip-port }
+          additionalProperties: false
+          required: [appName, serviceName, port]
+
+  unregister-service:
+    title: Unregister service instance
+    connectionType: websockets
+    params:
+      - name: options
+        required: true
+        schema:
+          type: object
+          properties:
+            port: { type: integer, format: ip-port }
+          additionalProperties: false
+          required: [port]
+
+  get-hosts:
+    title: Get service hosts
+    params:
+      - name: options
+        schema:
+          type: object
+          properties:
+            appName: { type: string, format: kebab-case }
+            serviceName: { type: string, format: kebab-case }
+          additionalProperties: false
+          required: []
