@@ -34,8 +34,8 @@ methods:
           additionalProperties: false
           required: [port]
 
-  get-hosts:
-    title: Get service hosts
+  get-services:
+    title: Get services
     params:
       - name: options
         schema:
