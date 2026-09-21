@@ -10,29 +10,22 @@ methods:
     title: Register service instance
     connectionType: websockets
     params:
-      - name: options
+      - name: services
         required: true
         schema:
           type: object
           properties:
             appName: { type: string, format: kebab-case }
-            serviceName: { type: string, format: kebab-case }
-            port: { type: integer, format: ip-port }
+            services:
+              type: object
+              propertyNames:
+                type: string
+                format: url
+              additionalProperties:
+                type: string
+                format: kebab-case
           additionalProperties: false
-          required: [appName, serviceName, port]
-
-  unregister-service:
-    title: Unregister service instance
-    connectionType: websockets
-    params:
-      - name: options
-        required: true
-        schema:
-          type: object
-          properties:
-            port: { type: integer, format: ip-port }
-          additionalProperties: false
-          required: [port]
+          required: [appName, services]
 
   get-services:
     title: Get services
