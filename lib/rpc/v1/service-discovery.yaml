@@ -6,8 +6,8 @@ emits:
   - service-discovery/delete-service/*/*
 
 methods:
-  register-service:
-    title: Register service instance
+  register-services:
+    title: Register host services
     connectionType: websockets
     params:
       - name: services
@@ -22,8 +22,11 @@ methods:
                 type: string
                 format: url
               additionalProperties:
-                type: string
-                format: kebab-case
+                type: object
+                properties:
+                  serviceName: { type: string, format: kebab-case }
+                additionalsProperties: false
+                required: [serviceName]
           additionalProperties: false
           required: [appName, services]
 
