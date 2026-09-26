@@ -25,7 +25,7 @@ methods:
                 type: object
                 properties:
                   serviceName: { type: string, format: kebab-case }
-                additionalsProperties: false
+                additionalProperties: false
                 required: [serviceName]
           additionalProperties: false
           required: [appName, services]
