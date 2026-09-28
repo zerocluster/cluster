@@ -15,6 +15,7 @@ methods:
         schema:
           type: object
           properties:
+            updateId: { type: integer, minimum: 1 }
             appName: { type: string, format: kebab-case }
             services:
               type: object
@@ -28,7 +29,7 @@ methods:
                 additionalProperties: false
                 required: [serviceName]
           additionalProperties: false
-          required: [appName, services]
+          required: [updateId, appName, services]
 
   get-services:
     title: Get services
