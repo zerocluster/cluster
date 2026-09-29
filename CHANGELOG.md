@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.114 (2026-09-29)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [2a4b19a](https://github.com/zerocluster/cluster/commit/2a4b19a), [2d3e4be](https://github.com/zerocluster/cluster/commit/2d3e4be); 👬 zdm)
+
+Compare with the previous release: [v1.11.113...v1.11.114](https://github.com/zerocluster/cluster/compare/v1.11.113...v1.11.114)
+
 ### v1.11.113 (2026-09-26)
 
 **Other changes:**
@@ -970,7 +978,7 @@ Compare with the previous release: [v1.11.0](https://github.com/zerocluster/clus
 
 **Bug fixes:**
 
-- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [c5c5603](https://github.com/zerocluster/cluster/commit/c5c5603); 👬 zdm)
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [c5c5603](https://github.com/zerocluster/cluster/commit/c5c5603); 👬 zdm)
 
 **Other changes:**
 
