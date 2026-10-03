@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.12.0 (2026-10-03)
+
+**New features:**
+
+- \[MINOR] feat: add service discovery RPC (● [f2cb2b6](https://github.com/zerocluster/cluster/commit/f2cb2b6); 👬 zdm)
+
+    Add a service discovery server and RPC API for registering host services and exposing the current service list to clients.
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [bbe1e5b](https://github.com/zerocluster/cluster/commit/bbe1e5b), [d526d54](https://github.com/zerocluster/cluster/commit/d526d54); 👬 zdm)
+
+- docs: update docs (● [7496c2f](https://github.com/zerocluster/cluster/commit/7496c2f); 👬 zdm)
+
+Compare with the previous release: [v1.11.115...v1.12.0](https://github.com/zerocluster/cluster/compare/v1.11.115...v1.12.0)
+
 ### v1.11.115 (2026-09-30)
 
 **Other changes:**
