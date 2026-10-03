@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.4 (2026-10-03)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove service discovery debug logging (● [1c00ec5](https://github.com/zerocluster/cluster/commit/1c00ec5); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [985c966](https://github.com/zerocluster/cluster/commit/985c966); 👬 zdm)
+
+Compare with the previous release: [v1.12.3...v1.12.4](https://github.com/zerocluster/cluster/compare/v1.12.3...v1.12.4)
+
 ### v1.12.3 (2026-10-03)
 
 **Other changes:**
