@@ -19,7 +19,7 @@ methods:
               type: object
               propertyNames:
                 type: string
-                format: url
+                format: uri
               additionalProperties:
                 type: object
                 properties:
