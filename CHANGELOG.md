@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.3 (2026-10-03)
+
+**Other changes:**
+
+- chore: add debug logging (● [b435006](https://github.com/zerocluster/cluster/commit/b435006); 👬 zdm)
+
+Compare with the previous release: [v1.12.2...v1.12.3](https://github.com/zerocluster/cluster/compare/v1.12.2...v1.12.3)
+
 ### v1.12.2 (2026-10-03)
 
 **Other changes:**
