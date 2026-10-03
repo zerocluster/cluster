@@ -2,11 +2,9 @@ title: Service discovery
 
 emits:
   - service-discovery/update
-  - service-discovery/add-service/*/*
-  - service-discovery/delete-service/*/*
 
 methods:
-  register-services:
+  set-host-services:
     title: Register host services
     connectionType: websockets
     params:
@@ -33,12 +31,3 @@ methods:
 
   get-services:
     title: Get services
-    params:
-      - name: options
-        schema:
-          type: object
-          properties:
-            appName: { type: string, format: kebab-case }
-            serviceName: { type: string, format: kebab-case }
-          additionalProperties: false
-          required: []
