@@ -8,7 +8,7 @@ methods:
     title: Register host services
     connectionType: websockets
     params:
-      - name: services
+      - name: options
         required: true
         schema:
           type: object
@@ -16,16 +16,15 @@ methods:
             version: { type: integer, minimum: 1 }
             appName: { type: string, format: kebab-case }
             services:
-              type: object
-              propertyNames:
-                type: string
-                # format: uri
-              additionalProperties:
+              type: array
+              items:
                 type: object
                 properties:
                   serviceName: { type: string, format: kebab-case }
+                  port: { type: integer, format: ip-port }
+                  pathname: { type: string }
                 additionalProperties: false
-                required: [serviceName]
+                required: [serviceName, port, pathname]
           additionalProperties: false
           required: [version, appName, services]
 
