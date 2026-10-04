@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.12.5 (2026-10-04)
+
+**Other changes:**
+
+- build: enable dnsrr endpoint mode for swarm deployment (● [8d15a18](https://github.com/zerocluster/cluster/commit/8d15a18); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [c047767](https://github.com/zerocluster/cluster/commit/c047767); 👬 zdm)
+
+Compare with the previous release: [v1.12.4...v1.12.5](https://github.com/zerocluster/cluster/compare/v1.12.4...v1.12.5)
+
 ### v1.12.4 (2026-10-03)
 
 **Code refactoring:**
