@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.14.0 (2026-10-19)
+
+**New features:**
+
+- \[MINOR] feat: enable cluster component by default (● [f1a8d5b](https://github.com/zerocluster/cluster/commit/f1a8d5b); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5f183a1](https://github.com/zerocluster/cluster/commit/5f183a1); 👬 zdm)
+
+Compare with the previous release: [v1.13.3...v1.14.0](https://github.com/zerocluster/cluster/compare/v1.13.3...v1.14.0)
+
 ### v1.13.3 (2026-10-19)
 
 **Other changes:**
