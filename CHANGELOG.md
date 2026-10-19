@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.2 (2026-10-19)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: remove cluster component configuration (● [a864e9e](https://github.com/zerocluster/cluster/commit/a864e9e); 👬 zdm)
+
+Compare with the previous release: [v1.14.1...v1.14.2](https://github.com/zerocluster/cluster/compare/v1.14.1...v1.14.2)
+
 ### v1.14.1 (2026-10-19)
 
 **Code refactoring:**
