@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.15 (2026-10-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: expose service address as uri (● [628e77e](https://github.com/zerocluster/cluster/commit/628e77e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ee1ebdd](https://github.com/zerocluster/cluster/commit/ee1ebdd), [016ffd0](https://github.com/zerocluster/cluster/commit/016ffd0), [bda93e4](https://github.com/zerocluster/cluster/commit/bda93e4), [92b3b6b](https://github.com/zerocluster/cluster/commit/92b3b6b), [33ff53a](https://github.com/zerocluster/cluster/commit/33ff53a), [f7be002](https://github.com/zerocluster/cluster/commit/f7be002), [1a965a4](https://github.com/zerocluster/cluster/commit/1a965a4); 👬 zdm)
+
+Compare with the previous release: [v1.12.14...v1.12.15](https://github.com/zerocluster/cluster/compare/v1.12.14...v1.12.15)
+
 ### v1.12.14 (2026-10-14)
 
 **Other changes:**
