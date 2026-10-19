@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.13.0 (2026-10-19)
+
+**New features:**
+
+- \[MINOR] feat: add nginx upstream endpoint for api websockets (● [61e7bac](https://github.com/zerocluster/cluster/commit/61e7bac); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename nginx upstream component key (● [5d071cd](https://github.com/zerocluster/cluster/commit/5d071cd); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [724f47e](https://github.com/zerocluster/cluster/commit/724f47e), [2587edd](https://github.com/zerocluster/cluster/commit/2587edd); 👬 zdm)
+
+Compare with the previous release: [v1.12.15...v1.13.0](https://github.com/zerocluster/cluster/compare/v1.12.15...v1.13.0)
+
 ### v1.12.15 (2026-10-19)
 
 **Bug fixes:**
