@@ -9,6 +9,10 @@ services:
 defaultService: main
 
 components:
+  cluster:
+    enabled: true
+    url: ws://127.0.0.1:81/api
+
   env:
     name: cluster
 
