@@ -12,4 +12,7 @@ components:
   env:
     name: cluster
 
+  nginx-upstream:
+    url: ws://nginx:81/api
+
 config: ~
