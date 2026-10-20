@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.4 (2026-10-20)
+
+**Other changes:**
+
+- build: disable cluster component by default (● [b967535](https://github.com/zerocluster/cluster/commit/b967535); 👬 zdm)
+
+Compare with the previous release: [v1.14.3...v1.14.4](https://github.com/zerocluster/cluster/compare/v1.14.3...v1.14.4)
+
 ### v1.14.3 (2026-10-19)
 
 **Other changes:**
