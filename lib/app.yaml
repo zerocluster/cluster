@@ -9,6 +9,8 @@ services:
 defaultService: main
 
 components:
+  cluster:
+    enabled: false
   env:
     name: cluster
 
