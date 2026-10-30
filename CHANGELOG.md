@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.14.15 (2026-10-30)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [aeb3184](https://github.com/zerocluster/cluster/commit/aeb3184); 👬 zdm)
+
+Compare with the previous release: [v1.14.14...v1.14.15](https://github.com/zerocluster/cluster/compare/v1.14.14...v1.14.15)
+
 ### v1.14.14 (2026-10-30)
 
 **Other changes:**
