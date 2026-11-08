@@ -1,0 +1,6 @@
+title: Cluster host
+
+methods:
+  get-ip-address:
+    title: Get requestor host IP-address
+    connectionType: websockets
