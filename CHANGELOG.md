@@ -1,5 +1,25 @@
 # Changelog
 
+### v1.15.0 (2026-11-09)
+
+**New features:**
+
+- \[MINOR] feat: add host rpc (● [491b68a](https://github.com/zerocluster/cluster/commit/491b68a), [9d4d681](https://github.com/zerocluster/cluster/commit/9d4d681); 👬 zdm)
+
+- \[MINOR] feat: key discovered services by name and include hostname (● [f34b2ee](https://github.com/zerocluster/cluster/commit/f34b2ee); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: key discovered services by app and service name (● [ed078ba](https://github.com/zerocluster/cluster/commit/ed078ba); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [383bb22](https://github.com/zerocluster/cluster/commit/383bb22); 👬 zdm)
+
+- docs: update docs (● [4eae908](https://github.com/zerocluster/cluster/commit/4eae908); 👬 zdm)
+
+Compare with the previous release: [v1.14.24...v1.15.0](https://github.com/zerocluster/cluster/compare/v1.14.24...v1.15.0)
+
 ### v1.14.24 (2026-11-08)
 
 **Other changes:**
