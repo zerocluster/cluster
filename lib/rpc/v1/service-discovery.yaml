@@ -16,15 +16,16 @@ methods:
             version: { type: integer, minimum: 1 }
             appName: { type: string, format: kebab-case }
             services:
-              type: array
-              items:
+              type: object
+              propertyNames: { type: string, format: kebab-case }
+              additionalProperties:
                 type: object
                 properties:
-                  serviceName: { type: string, format: kebab-case }
+                  hostname: { type: string, format: domain-name }
                   port: { type: integer, format: ip-port }
-                  pathname: { type: string }
+                  pathname: { type: string, format: absolute-path }
                 additionalProperties: false
-                required: [serviceName, port, pathname]
+                required: [port, pathname]
           additionalProperties: false
           required: [version, appName, services]
 
