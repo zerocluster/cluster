@@ -44,3 +44,18 @@ methods:
         schema:
           type: string
           format: uuid
+
+  wait:
+    title: Wait for mutex unlock
+    connectionType: websockets
+    params:
+      - name: mutex_id
+        description: Mutex id.
+        required: true
+        schema:
+          type: string
+      - name: lock_id
+        required: true
+        schema:
+          type: string
+          format: uuid
