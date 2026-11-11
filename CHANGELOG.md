@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.16.0 (2026-11-11)
+
+**New features:**
+
+- \[MINOR] feat: add mutex wait API and expose lock identifiers (● [bdd3d01](https://github.com/zerocluster/cluster/commit/bdd3d01); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: use context abort signal for mutex waits (● [8aa6330](https://github.com/zerocluster/cluster/commit/8aa6330); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [48d3e95](https://github.com/zerocluster/cluster/commit/48d3e95); 👬 zdm)
+
+- docs: update docs (● [f912f9e](https://github.com/zerocluster/cluster/commit/f912f9e); 👬 zdm)
+
+Compare with the previous release: [v1.15.2...v1.16.0](https://github.com/zerocluster/cluster/compare/v1.15.2...v1.16.0)
+
 ### v1.15.2 (2026-11-10)
 
 **Other changes:**
