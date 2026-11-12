@@ -1,6 +1,6 @@
 {
     "name": "@zerocluster/cluster",
-    "version": "1.16.2",
+    "version": "1.16.3",
     "private": true,
     "description": "Cluster service",
     "keywords": [
