@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.16.4 (2026-11-13)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct app RPC WebSocket URL (● [1d26ec7](https://github.com/zerocluster/cluster/commit/1d26ec7); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [bac119c](https://github.com/zerocluster/cluster/commit/bac119c), [09d730d](https://github.com/zerocluster/cluster/commit/09d730d); 👬 zdm)
+
+- docs: update docs (● [9cef9c1](https://github.com/zerocluster/cluster/commit/9cef9c1); 👬 zdm)
+
+Compare with the previous release: [v1.16.3...v1.16.4](https://github.com/zerocluster/cluster/compare/v1.16.3...v1.16.4)
+
 ### v1.16.3 (2026-11-12)
 
 **Other changes:**
