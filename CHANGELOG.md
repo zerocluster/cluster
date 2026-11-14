@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.17.0 (2026-11-14)
+
+**New features:**
+
+- \[MINOR] feat: accept root paths in service discovery pathname (● [e57d6da](https://github.com/zerocluster/cluster/commit/e57d6da); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e699929](https://github.com/zerocluster/cluster/commit/e699929); 👬 zdm)
+
+- docs: update (● [5c43f0c](https://github.com/zerocluster/cluster/commit/5c43f0c); 👬 zdm)
+
+- docs: update docs (● [457a61e](https://github.com/zerocluster/cluster/commit/457a61e); 👬 zdm)
+
+Compare with the previous release: [v1.16.8...v1.17.0](https://github.com/zerocluster/cluster/compare/v1.16.8...v1.17.0)
+
 ### v1.16.8 (2026-11-13)
 
 **Other changes:**
