@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.17.1 (2026-11-14)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [b720aac](https://github.com/zerocluster/cluster/commit/b720aac); 👬 zdm)
+
+Compare with the previous release: [v1.17.0...v1.17.1](https://github.com/zerocluster/cluster/compare/v1.17.0...v1.17.1)
+
 ### v1.17.0 (2026-11-14)
 
 **New features:**
