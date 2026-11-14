@@ -23,7 +23,10 @@ methods:
                 properties:
                   hostname: { type: string, format: domain-name }
                   port: { type: integer, format: ip-port }
-                  pathname: { type: string, format: absolute-path }
+                  pathname:
+                    anyOf:
+                      - { type: string, format: root-path }
+                      - { type: string, format: absolute-path }
                 additionalProperties: false
                 required: [port, pathname]
           additionalProperties: false
