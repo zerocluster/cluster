@@ -1,5 +1,21 @@
 # Changelog
 
+### v1.18.0 (2026-11-17)
+
+**New features:**
+
+- \[MINOR] feat: add service filters to service discovery (● [2e2538a](https://github.com/zerocluster/cluster/commit/2e2538a); 👬 zdm)
+
+- \[MINOR] feat: support multiple instances per discovered service (● [c22b6b8](https://github.com/zerocluster/cluster/commit/c22b6b8); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [694eb3e](https://github.com/zerocluster/cluster/commit/694eb3e); 👬 zdm)
+
+- docs: update docs (● [98b0b81](https://github.com/zerocluster/cluster/commit/98b0b81); 👬 zdm)
+
+Compare with the previous release: [v1.17.2...v1.18.0](https://github.com/zerocluster/cluster/compare/v1.17.2...v1.18.0)
+
 ### v1.17.2 (2026-11-17)
 
 **Other changes:**
