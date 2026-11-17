@@ -34,3 +34,11 @@ methods:
 
   get-services:
     title: Get services
+    params:
+      - name: options
+        schema:
+          type: object
+          properties:
+            appName: { type: string, format: kebab-case }
+            serviceName: { type: string, format: kebab-case }
+          additionalProperties: false
