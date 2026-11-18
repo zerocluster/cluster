@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.18.2 (2026-11-18)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [f2e2cea](https://github.com/zerocluster/cluster/commit/f2e2cea); 👬 zdm)
+
+- docs: update docs (● [e70b43a](https://github.com/zerocluster/cluster/commit/e70b43a); 👬 zdm)
+
+Compare with the previous release: [v1.18.1...v1.18.2](https://github.com/zerocluster/cluster/compare/v1.18.1...v1.18.2)
+
 ### v1.18.1 (2026-11-17)
 
 **Bug fixes:**
