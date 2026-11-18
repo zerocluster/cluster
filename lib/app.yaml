@@ -4,6 +4,7 @@ dependencies:
 services:
   main:
     components:
+      cluster-server: true
       rpc: true
 
 defaultService: main
@@ -11,6 +12,7 @@ defaultService: main
 components:
   cluster:
     enabled: false
+
   env:
     name: cluster
 
