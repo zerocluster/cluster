@@ -1,5 +1,25 @@
 # Changelog
 
+### v1.19.0 (2026-11-18)
+
+**New features:**
+
+- \[MINOR] feat: create cluster-server component (● [fed893e](https://github.com/zerocluster/cluster/commit/fed893e); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix config (● [57c7982](https://github.com/zerocluster/cluster/commit/57c7982); 👬 zdm)
+
+- \[PATCH] fix: rename rps host to utils (● [2f36f9e](https://github.com/zerocluster/cluster/commit/2f36f9e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e968241](https://github.com/zerocluster/cluster/commit/e968241); 👬 zdm)
+
+- docs: update docs (● [80090be](https://github.com/zerocluster/cluster/commit/80090be); 👬 zdm)
+
+Compare with the previous release: [v1.18.4...v1.19.0](https://github.com/zerocluster/cluster/compare/v1.18.4...v1.19.0)
+
 ### v1.18.4 (2026-11-18)
 
 **Other changes:**
