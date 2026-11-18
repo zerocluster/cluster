@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.19.1 (2026-11-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct ClusterServer constructor spelling (● [cc94106](https://github.com/zerocluster/cluster/commit/cc94106); 👬 zdm)
+
+Compare with the previous release: [v1.19.0...v1.19.1](https://github.com/zerocluster/cluster/compare/v1.19.0...v1.19.1)
+
 ### v1.19.0 (2026-11-18)
 
 **New features:**
