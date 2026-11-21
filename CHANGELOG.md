@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.19.6 (2026-11-21)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: remove unused app configuration fields (● [3ef804e](https://github.com/zerocluster/cluster/commit/3ef804e); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [2e9afd0](https://github.com/zerocluster/cluster/commit/2e9afd0); 👬 zdm)
+
+Compare with the previous release: [v1.19.5...v1.19.6](https://github.com/zerocluster/cluster/compare/v1.19.5...v1.19.6)
+
 ### v1.19.5 (2026-11-21)
 
 **Other changes**:
