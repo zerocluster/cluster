@@ -15,5 +15,3 @@ components:
 
   env:
     name: cluster
-
-config: ~
