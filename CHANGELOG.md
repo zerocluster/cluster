@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.19.8 (2026-11-22)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: move disconnect handler registration to init (● [d75c71b](https://github.com/zerocluster/cluster/commit/d75c71b); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [9b8a7e6](https://github.com/zerocluster/cluster/commit/9b8a7e6); 👬 zdm)
+
+Compare with the previous release: [v1.19.7...v1.19.8](https://github.com/zerocluster/cluster/compare/v1.19.7...v1.19.8)
+
 ### v1.19.7 (2026-11-22)
 
 **Other changes**:
