@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.19.9 (2026-11-24)
+
+**Bug fixes**:
+
+- \[PATCH] fix: rename app run command to start (● [fd0538c](https://github.com/zerocluster/cluster/commit/fd0538c); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [1a92dde](https://github.com/zerocluster/cluster/commit/1a92dde), [bef5b51](https://github.com/zerocluster/cluster/commit/bef5b51); 👬 zdm)
+
+Compare with the previous release: [v1.19.8...v1.19.9](https://github.com/zerocluster/cluster/compare/v1.19.8...v1.19.9)
+
 ### v1.19.8 (2026-11-22)
 
 **Code refactoring**:
